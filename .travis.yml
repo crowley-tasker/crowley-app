@@ -11,7 +11,7 @@ stages:
 
 jobs:
   include:
-    - state: lint
+    - stage: lint
       script: yarn lint
     - stage: test
       script: yarn test:update
