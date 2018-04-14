@@ -8,7 +8,9 @@ import style from './style';
 const HabitCard = props => (
   <View style={style.container}>
     <Text style={style.cardTitle}>{props.title}</Text>
-    <View><Text>Weekly Calendar</Text></View>
+    <View>
+      <Text>Weekly Calendar</Text>
+    </View>
     {/* <Text>Reasons</Text>
     <Text>I am losing too much time sleeping</Text>
     <Text>Schedule</Text>
@@ -19,4 +21,3 @@ const HabitCard = props => (
 );
 
 export default HabitCard;
-
