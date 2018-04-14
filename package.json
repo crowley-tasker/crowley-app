@@ -10,7 +10,8 @@
     "coverage": "node node_modules/jest/bin/jest --verbose --coverage && open ./coverage/lcov-report/index.html",
     "lint": "node node_modules/eslint/bin/eslint **/*.js",
     "start:android": "react-native run-android",
-    "release": "cd android && ./gradlew assembleRelease"
+    "release": "cd android && ./gradlew assembleRelease",
+    "settings": "adb shell input keyevent 82"
   },
   "dependencies": {
     "react": "16.3.1",
