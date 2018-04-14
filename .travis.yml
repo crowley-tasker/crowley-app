@@ -5,13 +5,13 @@ node_js:
 
 sudo: false
 
+stages:
+  - lint
+  - test
+
 jobs:
   include:
     - state: lint
       script: yarn lint
     - stage: test
       script: yarn test:update
-
-stages:
-  - lint
-  - test
