@@ -13,6 +13,7 @@
       }
     ],
     "react/prop-types": 0,
+    "react/jsx-no-bind": 1,
     "prettier/prettier": [
       "error",
       {
