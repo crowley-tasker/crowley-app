@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
-import HabitCard from './app/components/HabitCard';
+import { DaysOfWeek, HabitCard } from './app/components';
 
 const styles = StyleSheet.create({
   container: {
@@ -13,13 +13,18 @@ const styles = StyleSheet.create({
 
 const App = () => (
   <View style={styles.container}>
+    <DaysOfWeek />
     <ScrollView>
       <HabitCard title="Wake up early than 6 am" />
       <HabitCard title="Don't miss class" />
-      <HabitCard title="Don't miss class" />
-      <HabitCard title="Don't miss class" />
-      <HabitCard title="Don't miss class" />
-      <HabitCard title="Don't miss class" />
+      <HabitCard title="One new recipe a week" />
+      <HabitCard title="One pull request a week" />
+      <HabitCard title="" />
+      <HabitCard title="Daily production above the six" />
+      <HabitCard title="2 liters of water a day" />
+      <HabitCard title="One book per month" />
+      <HabitCard title="One new movie a week" />
+      <HabitCard title="One hour one daily knowledge" />
     </ScrollView>
   </View>
 );
