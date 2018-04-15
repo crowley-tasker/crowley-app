@@ -4,12 +4,16 @@
 import { Text, View } from 'react-native';
 import React from 'react';
 import style from './style';
+import { PopupButton, WeekCalendar } from '../';
 
 const HabitCard = props => (
   <View style={style.container}>
-    <Text style={style.cardTitle}>{props.title}</Text>
+    <View style={style.cardHeader}>
+      <Text style={style.cardTitle}>{props.title}</Text>
+      <PopupButton />
+    </View>
     <View>
-      <Text>Weekly Calendar</Text>
+      <WeekCalendar />
     </View>
     {/* <Text>Reasons</Text>
     <Text>I am losing too much time sleeping</Text>
