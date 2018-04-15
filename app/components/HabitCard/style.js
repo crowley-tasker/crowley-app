@@ -3,6 +3,16 @@ import { StyleSheet, Dimensions } from 'react-native';
 const { height, width } = Dimensions.get('screen');
 
 export default StyleSheet.create({
+  cardHeader: {
+    flexDirection: 'row',
+  },
+  cardTitle: {
+    fontSize: 16,
+    color: '#000',
+    fontWeight: 'bold',
+    marginTop: 5,
+    marginLeft: 10,
+  },
   container: {
     // justifyContent: 'center',
     // alignItems: 'center',
@@ -12,12 +22,5 @@ export default StyleSheet.create({
     borderRadius: 2,
     marginTop: 10,
     marginBottom: 10,
-  },
-  cardTitle: {
-    fontSize: 16,
-    color: '#000',
-    fontWeight: 'bold',
-    marginTop: 5,
-    marginLeft: 10,
   },
 });
