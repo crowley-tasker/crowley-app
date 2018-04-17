@@ -13,7 +13,7 @@
     "prettier": "prettier --write './**/*.js'",
     "start:android": "react-native run-android",
     "release": "cd android && ./gradlew assembleRelease",
-    "settings": "adb shell input keyevent 82"
+    "devtools": "adb shell input keyevent 82"
   },
   "dependencies": {
     "react": "16.3.1",
