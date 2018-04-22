@@ -5,48 +5,671 @@ exports[`renders correctly 1`] = `
   style={
     Object {
       "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
+      "backgroundColor": "#ccc",
       "flex": 1,
       "justifyContent": "center",
     }
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={undefined}
-  >
-    Welcome to React Native!
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
+        "alignItems": "center",
+        "justifyContent": "center",
       }
     }
   >
-    To get started, edit App.js
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
-      }
-    }
-  >
-    Press Cmd+R to reload,
-Cmd+D or shake for dev menu
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+    >
+      DOM | SEG | TER | QUA | QUI | SEX | SAB
+    </Text>
+  </View>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            Wake up early than 6 am
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            Don't miss class
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            One new recipe a week
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            One pull request a week
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            Daily production above the six
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            2 liters of water a day
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            One book per month
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            One new movie a week
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "height": 120,
+            "marginBottom": 10,
+            "marginTop": 10,
+            "width": 735,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "marginLeft": 10,
+                "marginTop": 5,
+              }
+            }
+          >
+            One hour one daily knowledge
+          </Text>
+          <View>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              ...
+            </Text>
+          </View>
+        </View>
+        <View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+            >
+              WeekCalendar
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
 </View>
 `;

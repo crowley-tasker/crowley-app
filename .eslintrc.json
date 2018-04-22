@@ -1,14 +1,25 @@
 {
-    "parser": "babel-eslint",
-    "extends": "airbnb",
-    "plugins": [
-        "react"
-
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier/react"],
+  "plugins": ["react", "prettier"],
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js", ".jsx"]
+      }
     ],
-    "env": {
-        "jest": true
-    },
-    "rules": {
-        "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }]
-    }
+    "react/prop-types": 0,
+    "react/jsx-no-bind": 1,
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    ]
+  }
 }
